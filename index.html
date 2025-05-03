@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mahelet's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">Mahelet Yared</a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <h1>Hello, I'm <span class="highlight">Mahelet Yared</span></h1>
+        <p class="subtitle">3rd Year Software Engineering Student & Beginner Penetration Tester, Front End Developer</p>
+        <p>Passionate about Cybersecurity, Coding, and Development. Member of ASTu Dev Club.</p>
+        <div class="hero-links">
+          <a href="https://github.com/mahi122130" target="_blank" rel="noopener" class="btn btn-primary">GitHub Profile</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="about">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I am currently in my 3rd year of graduation from the INSA Cyber Talent Center, specializing in Penetration Testing and Cybersecurity division.
+        I am currently learning at ASTu CSEC and I am a member of the ASTu Dev Club.
+      </p>
+      <p>
+        I enjoy solving challenging security problems, developing secure applications, and learning new technologies to advance my skills.
+      </p>
+    </section>
+
+    <section class="container" id="skills">
+      <h2 class="section-title">Platforms & Profiles</h2>
+      <ul class="profiles-list">
+        <li><strong>GitHub:</strong> <a href="https://github.com/mahi122130" target="_blank" rel="noopener">mahi122130</a></li>
+        <li><strong>Codeforces:</strong> <a href="https://codeforces.com/profile/mahelet2130" target="_blank" rel="noopener">mahelet2130</a></li>
+        <li><strong>LeetCode:</strong> <a href="https://leetcode.com/mahizshaa/" target="_blank" rel="noopener">mahizshaa</a></li>
+        <li><strong>TryHackMe:</strong> <a href="https://tryhackme.com/p/mahelet2130" target="_blank" rel="noopener">mahelet2130</a></li>
+      </ul>
+    </section>
+
+    <section class="container" id="experience">
+      <h2 class="section-title">Experience & Education</h2>
+      <ul class="experience-list">
+        <li>
+          <h3>Summer Camp at INSA Cyber Talent Center</h3>
+          <p>Penetration Testing / Cybersecurity Division</p>
+        </li>
+        <li>
+          <h3> CSEC ASTU DEV Club Member</h3>
+          <p>Active member collaborating on development projects</p>
+          <p>Learned bootcamp at CSEC-ASTU DEV on fullstack web development </p>
+        </li>
+        <li>
+          <h3>Contributor at Thanatos Coders</h3>
+          <p>Contributed to open-source projects and tools</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="container" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Csec-bootcamp-jobspher</h3>
+          <p>A comprehensive job search platform with advanced filtering and application tracking features.</p>
+          <div class="project-tech">
+            <span>React</span>
+            <span>Node.js and express.js </span>
+            <span>MongoDB</span>
+          </div>
+          <a href="https://github.com/mahi122130/Csec-bootcamp-jobspher" target="_blank" class="btn btn-primary">View Project</a>
+        </div>
+        
+        <div class="project-card">
+          <h3>simple-chat-bot
+        </h3>
+          <p>An AI-powered chatbot with natural language processing capabilities.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>html,css,js</span>
+            <span>Flask</span>
+          </div>
+          <a href="https://github.com/mahi122130/simple-chat-bot
+          " target="_blank" class="btn btn-primary">View Project</a>
+        </div>
+        
+        <div class="project-card">
+          <h3>socket-project</h3>
+          <p>A secure online chating platform with proctoring features built with Java.</p>
+          <div class="project-tech">
+            <span>Java</span>
+            
+            
+          </div>
+          <a href="https://github.com/mahi122130/socket-project
+          " target="_blank" class="btn btn-primary">View Project</a>
+        </div>
+        
+        <div class="project-card">
+          <h3>network-scanner-tool</h3>
+          <p>A security tool for network analysis and vulnerability assessment.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Scapy</span>
+            <span>Network Security</span>
+          </div>
+          <a href="https://github.com/mahi122130/network-scanner-tool" target="_blank" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-container">
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <h3>Other Contact Methods</h3>
+          <ul class="contact-list">
+            <li>
+              <strong>GitHub:</strong> <a href="https://github.com/mahi122130" target="_blank" rel="noopener">mahi122130</a>
+            </li>
+            <li>
+              <strong>Email:</strong> <a href="mailto:mahelet2130@gmail.com">mahelet2130@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Mahelet Yared. All rights reserved.</p>
+  </footer>
+
+ 
+</body>
+</html>
